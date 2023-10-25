@@ -8,8 +8,6 @@ from core import Survey
 from core import Medical
 from fastapi.encoders import jsonable_encoder
 
-
-
 app = FastAPI()
 model = joblib.load('expense_pipe.joblib')
 model_2 = joblib.load('medical_expense_pipe.joblib')
